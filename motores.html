@@ -1,133 +1,125 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-<meta charset="UTF-8">
-<title>Motores de Juego</title>
-<link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-<main>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Motores de Juego</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Motores de Juego</h1>
+      </header>
 
-<header>
-<h1>Motores de Juego</h1>
-</header>
+      <nav>
+        <div class="nav-container">
+          <a href="index.html">Inicio</a>
+          <a href="motores.html">Motores</a>
+          <a href="arte.html">Arte y Diseño</a>
+          <a href="sonido.html">Sonido</a>
+          <a href="recursos.html">Recursos</a>
+          <a href="tips.html">Consejos Estratégicos</a>
+        </div>
+      </nav>
 
-<nav>
-    <div class="nav-container">
-        <a href="index.html">Inicio</a>
-        <a href="motores.html">Motores</a>
-        <a href="arte.html">Arte y Diseño</a>
-        <a href="sonido.html">Sonido</a>
-        <a href="recursos.html">Recursos</a>
-        <a href="tips.html">Consejos Estratégicos</a>
-    </div>
-</nav>
+      <div class="container">
+        <h2 class="section-title">Importancia del Motor de Juego</h2>
 
+        <p>
+          El motor de juego es el núcleo tecnológico de cualquier videojuego. Se
+          encarga de renderizado gráfico, físicas, animaciones, entrada de
+          usuario, audio y exportación multiplataforma. Elegir el motor correcto
+          define el tipo de proyectos que podrás desarrollar con mayor
+          eficiencia.
+        </p>
 
-<div class="container">
+        <div class="card-grid">
+          <div class="card">
+            <img src="images/unreal.png" />
+            <h3>Unreal Engine</h3>
+            <p>
+              Especializado en gráficos AAA con renderizado avanzado. Incluye
+              sistemas como Nanite y Lumen para iluminación dinámica.
+            </p>
+            <a href="https://www.unrealengine.com" target="_blank"
+              >Sitio oficial</a
+            >
+          </div>
 
-<h2 class="section-title">Importancia del Motor de Juego</h2>
+          <div class="card">
+            <img src="images/unity.png" />
+            <h3>Unity</h3>
+            <p>
+              Versátil y ampliamente utilizado en móviles, VR e indies. Gran
+              ecosistema de assets y comunidad.
+            </p>
+            <a href="https://unity.com" target="_blank">Sitio oficial</a>
+          </div>
 
-<p>
-El motor de juego es el núcleo tecnológico de cualquier videojuego.
-Se encarga de renderizado gráfico, físicas, animaciones, entrada de usuario,
-audio y exportación multiplataforma. Elegir el motor correcto define
-el tipo de proyectos que podrás desarrollar con mayor eficiencia.
-</p>
+          <div class="card">
+            <img src="images/godot.png" />
+            <h3>Godot</h3>
+            <p>
+              Open Source, ligero y basado en nodos. Ideal para desarrolladores
+              independientes.
+            </p>
+            <a href="https://godotengine.org" target="_blank">Sitio oficial</a>
+          </div>
 
-<div class="card-grid">
+          <div class="card">
+            <img src="images/gamemaker.png" />
+            <h3>GameMaker</h3>
+            <p>Desarrollo 2D rápido con curva de aprendizaje amigable.</p>
+            <a href="https://gamemaker.io" target="_blank">Sitio oficial</a>
+          </div>
+        </div>
 
-<div class="card">
-<img src="images/unreal.png">
-<h3>Unreal Engine</h3>
-<p>
-Especializado en gráficos AAA con renderizado avanzado.
-Incluye sistemas como Nanite y Lumen para iluminación dinámica.
-</p>
-<a href="https://www.unrealengine.com" target="_blank">Sitio oficial</a>
-</div>
+        <h2 class="section-title">Tabla Comparativa</h2>
 
-<div class="card">
-<img src="images/unity.png">
-<h3>Unity</h3>
-<p>
-Versátil y ampliamente utilizado en móviles, VR e indies.
-Gran ecosistema de assets y comunidad.
-</p>
-<a href="https://unity.com" target="_blank">Sitio oficial</a>
-</div>
+        <table>
+          <tr>
+            <th>Motor</th>
+            <th>Gráficos</th>
+            <th>Dificultad</th>
+            <th>Ideal para</th>
+            <th>Modelo</th>
+          </tr>
 
-<div class="card">
-<img src="images/godot.png">
-<h3>Godot</h3>
-<p>
-Open Source, ligero y basado en nodos.
-Ideal para desarrolladores independientes.
-</p>
-<a href="https://godotengine.org" target="_blank">Sitio oficial</a>
-</div>
+          <tr>
+            <td>Unreal</td>
+            <td>AAA hiperrealista</td>
+            <td>Alta</td>
+            <td>PC/Consola</td>
+            <td>Royalty</td>
+          </tr>
 
-<div class="card">
-<img src="images/gamemaker.png">
-<h3>GameMaker</h3>
-<p>
-Desarrollo 2D rápido con curva de aprendizaje amigable.
-</p>
-<a href="https://gamemaker.io" target="_blank">Sitio oficial</a>
-</div>
+          <tr>
+            <td>Unity</td>
+            <td>Alto nivel</td>
+            <td>Media</td>
+            <td>Móvil/VR</td>
+            <td>Licencia</td>
+          </tr>
 
-</div>
+          <tr>
+            <td>Godot</td>
+            <td>Bueno</td>
+            <td>Media-baja</td>
+            <td>Indies 2D</td>
+            <td>Gratis</td>
+          </tr>
 
-<h2 class="section-title">Tabla Comparativa</h2>
+          <tr>
+            <td>GameMaker</td>
+            <td>2D optimizado</td>
+            <td>Baja</td>
+            <td>Pixel Art</td>
+            <td>Licencia</td>
+          </tr>
+        </table>
+      </div>
 
-<table>
-<tr>
-<th>Motor</th>
-<th>Gráficos</th>
-<th>Dificultad</th>
-<th>Ideal para</th>
-<th>Modelo</th>
-</tr>
-
-<tr>
-<td>Unreal</td>
-<td>AAA hiperrealista</td>
-<td>Alta</td>
-<td>PC/Consola</td>
-<td>Royalty</td>
-</tr>
-
-<tr>
-<td>Unity</td>
-<td>Alto nivel</td>
-<td>Media</td>
-<td>Móvil/VR</td>
-<td>Licencia</td>
-</tr>
-
-<tr>
-<td>Godot</td>
-<td>Bueno</td>
-<td>Media-baja</td>
-<td>Indies 2D</td>
-<td>Gratis</td>
-</tr>
-
-<tr>
-<td>GameMaker</td>
-<td>2D optimizado</td>
-<td>Baja</td>
-<td>Pixel Art</td>
-<td>Licencia</td>
-</tr>
-</table>
-
-</div>
-
-<footer>
-Comparativa profesional de motores.
-</footer>
-
-</main>
-</body>
+      <footer>Comparativa profesional de motores.</footer>
+    </main>
+  </body>
 </html>

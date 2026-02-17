@@ -1,141 +1,139 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-<meta charset="UTF-8">
-<title>Arte y Diseño</title>
-<link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-<main>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Arte y Diseño</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Arte y Diseño para Videojuegos</h1>
+        <p>Modelado, animación, texturizado y estilo visual</p>
+      </header>
 
-<header>
-<h1>Arte y Diseño para Videojuegos</h1>
-<p>Modelado, animación, texturizado y estilo visual</p>
-</header>
+      <nav>
+        <div class="nav-container">
+          <a href="index.html">Inicio</a>
+          <a href="motores.html">Motores</a>
+          <a href="arte.html">Arte y Diseño</a>
+          <a href="sonido.html">Sonido</a>
+          <a href="recursos.html">Recursos</a>
+          <a href="tips.html">Consejos Estratégicos</a>
+        </div>
+      </nav>
 
-<nav>
-    <div class="nav-container">
-        <a href="index.html">Inicio</a>
-        <a href="motores.html">Motores</a>
-        <a href="arte.html">Arte y Diseño</a>
-        <a href="sonido.html">Sonido</a>
-        <a href="recursos.html">Recursos</a>
-        <a href="tips.html">Consejos Estratégicos</a>
-    </div>
-</nav>
+      <div class="container">
+        <h2 class="section-title">La Importancia del Arte en un Videojuego</h2>
 
+        <p>
+          El arte no es simplemente decoración: es identidad, narrativa visual y
+          experiencia emocional. Un juego puede tener mecánicas simples, pero si
+          posee una dirección artística sólida, puede destacar inmediatamente.
+          El estilo visual define el público objetivo, la atmósfera y la
+          percepción de calidad.
+        </p>
 
-<div class="container">
+        <p>
+          El pipeline artístico incluye modelado 3D, texturizado, animación,
+          iluminación y optimización. Elegir herramientas adecuadas permite
+          mantener coherencia visual y eficiencia productiva.
+        </p>
 
-<h2 class="section-title">La Importancia del Arte en un Videojuego</h2>
+        <div class="card-grid">
+          <div class="card">
+            <img src="images/blender.png" />
+            <h3>Blender</h3>
+            <p>
+              Suite completa para modelado, escultura, animación, iluminación y
+              render. Incluye Geometry Nodes y motor Cycles.
+            </p>
+            <a href="https://www.blender.org" target="_blank">Sitio oficial</a>
+          </div>
 
-<p>
-El arte no es simplemente decoración: es identidad, narrativa visual y experiencia emocional.
-Un juego puede tener mecánicas simples, pero si posee una dirección artística sólida,
-puede destacar inmediatamente. El estilo visual define el público objetivo,
-la atmósfera y la percepción de calidad.
-</p>
+          <div class="card">
+            <img src="images/aseprite.png" />
+            <h3>Aseprite</h3>
+            <p>
+              Estándar en Pixel Art profesional. Permite animación por frames y
+              control preciso de paletas.
+            </p>
+            <a href="https://www.aseprite.org" target="_blank">Sitio oficial</a>
+          </div>
 
-<p>
-El pipeline artístico incluye modelado 3D, texturizado, animación, iluminación y optimización.
-Elegir herramientas adecuadas permite mantener coherencia visual y eficiencia productiva.
-</p>
+          <div class="card">
+            <img src="images/materialmaker.png" />
+            <h3>Material Maker</h3>
+            <p>
+              Creación de materiales procedimentales por nodos. Ideal para
+              texturas PBR.
+            </p>
+            <a href="https://www.materialmaker.org" target="_blank"
+              >Sitio oficial</a
+            >
+          </div>
 
-<div class="card-grid">
+          <div class="card">
+            <img src="images/spine.png" />
+            <h3>Spine 2D</h3>
+            <p>
+              Animación por esqueletos. Reduce tiempos frente a animación frame
+              por frame.
+            </p>
+            <a href="http://esotericsoftware.com" target="_blank"
+              >Sitio oficial</a
+            >
+          </div>
+        </div>
 
-<div class="card">
-<img src="images/blender.png">
-<h3>Blender</h3>
-<p>
-Suite completa para modelado, escultura, animación, iluminación y render.
-Incluye Geometry Nodes y motor Cycles.
-</p>
-<a href="https://www.blender.org" target="_blank">Sitio oficial</a>
-</div>
+        <h2 class="section-title">
+          Tabla Comparativa de Herramientas Artísticas
+        </h2>
 
-<div class="card">
-<img src="images/aseprite.png">
-<h3>Aseprite</h3>
-<p>
-Estándar en Pixel Art profesional.
-Permite animación por frames y control preciso de paletas.
-</p>
-<a href="https://www.aseprite.org" target="_blank">Sitio oficial</a>
-</div>
+        <table>
+          <tr>
+            <th>Herramienta</th>
+            <th>Especialidad</th>
+            <th>Curva de aprendizaje</th>
+            <th>Ideal para</th>
+            <th>Modelo</th>
+          </tr>
 
-<div class="card">
-<img src="images/materialmaker.png">
-<h3>Material Maker</h3>
-<p>
-Creación de materiales procedimentales por nodos.
-Ideal para texturas PBR.
-</p>
-<a href="https://www.materialmaker.org" target="_blank">Sitio oficial</a>
-</div>
+          <tr>
+            <td>Blender</td>
+            <td>3D completo</td>
+            <td>Alta</td>
+            <td>Modelado y animación profesional</td>
+            <td>Gratis</td>
+          </tr>
 
-<div class="card">
-<img src="images/spine.png">
-<h3>Spine 2D</h3>
-<p>
-Animación por esqueletos.
-Reduce tiempos frente a animación frame por frame.
-</p>
-<a href="http://esotericsoftware.com" target="_blank">Sitio oficial</a>
-</div>
+          <tr>
+            <td>Aseprite</td>
+            <td>Pixel Art</td>
+            <td>Baja</td>
+            <td>Indies 2D</td>
+            <td>Pago único</td>
+          </tr>
 
-</div>
+          <tr>
+            <td>Material Maker</td>
+            <td>Texturas nodales</td>
+            <td>Media</td>
+            <td>PBR procedural</td>
+            <td>Gratis</td>
+          </tr>
 
-<h2 class="section-title">Tabla Comparativa de Herramientas Artísticas</h2>
+          <tr>
+            <td>Spine</td>
+            <td>Animación 2D</td>
+            <td>Media</td>
+            <td>Personajes 2D complejos</td>
+            <td>Licencia</td>
+          </tr>
+        </table>
+      </div>
 
-<table>
-<tr>
-<th>Herramienta</th>
-<th>Especialidad</th>
-<th>Curva de aprendizaje</th>
-<th>Ideal para</th>
-<th>Modelo</th>
-</tr>
-
-<tr>
-<td>Blender</td>
-<td>3D completo</td>
-<td>Alta</td>
-<td>Modelado y animación profesional</td>
-<td>Gratis</td>
-</tr>
-
-<tr>
-<td>Aseprite</td>
-<td>Pixel Art</td>
-<td>Baja</td>
-<td>Indies 2D</td>
-<td>Pago único</td>
-</tr>
-
-<tr>
-<td>Material Maker</td>
-<td>Texturas nodales</td>
-<td>Media</td>
-<td>PBR procedural</td>
-<td>Gratis</td>
-</tr>
-
-<tr>
-<td>Spine</td>
-<td>Animación 2D</td>
-<td>Media</td>
-<td>Personajes 2D complejos</td>
-<td>Licencia</td>
-</tr>
-
-</table>
-
-</div>
-
-<footer>
-Arte bien ejecutado = identidad sólida.
-</footer>
-
-</main>
-</body>
+      <footer>Arte bien ejecutado = identidad sólida.</footer>
+    </main>
+  </body>
 </html>
